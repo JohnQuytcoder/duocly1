@@ -1,3 +1,4 @@
+
 const drugList = [
   "Aspirin", "Ibuprofen", "Diflofenac", "Aceclofenac", "Piroxicam", "Indomethacin",
   "Meloxicam", "Nimesulid", "Celecoxib", "Chymotrypsine", "Prednisolon", "Dexamethason",
