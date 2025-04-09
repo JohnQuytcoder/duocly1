@@ -1,0 +1,23 @@
+<div id="start-screen">
+  <h2>Nhập thông tin</h2>
+  <input id="name" placeholder="Họ tên" />
+  <input id="mssv" placeholder="MSSV" />
+  <button onclick="startGame()">Bắt đầu</button>
+</div>
+
+<div id="game-screen" style="display:none;">
+  <h3 id="countdown"></h3>
+  <h2 id="drug-name" style="color:#d11a2a"></h2>
+  <div class="answers">
+    <textarea placeholder="Nhóm dược lý"></textarea>
+    <textarea placeholder="Chỉ định"></textarea>
+    <textarea placeholder="Tác dụng phụ"></textarea>
+    <textarea placeholder="Chống chỉ định"></textarea>
+  </div>
+  <button onclick="nextEarly()" id="next-btn" style="margin-top:10px;">Tiếp theo</button>
+</div>
+
+<div id="end-screen" style="display:none;">
+  <h2>Hoàn thành!</h2>
+  <p>Cảm ơn bạn đã tham gia.</p>
+</div>
